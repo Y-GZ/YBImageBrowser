@@ -167,6 +167,7 @@ browser.currentPage = ...;
 
 定义一个或多个类实现`YBIBToolViewHandler`协议，并且装入`YBImageBrowser.new.toolViewHandlers`数组属性。建议使用一个中介者来实现这个协议，然后所有的工具视图都由这个中介者来管理，当然也可以让每一个自定义的工具 UIView 都实现`YBIBToolViewHandler`协议，请根据具体需求取舍。
 
+设置右上角按钮类型(默认是none)：browser.defaultToolViewHandler?.topView.operationType = .more
 
 ## 自定义 Cell
 
