@@ -219,11 +219,3 @@ browser.ybib_imageCache.imageCacheCountLimit = 1;
 // 预加载数量设为 0
 browser.preloadCount = 0;
 ```
-
-## 视频播放功能简陋
-
-关于大家提的关于视频的需求，有些成本过高，笔者精力有限望体谅。若组件默认的视频播放器满足不了需求，就自定义一个 Cell 吧，把成熟的播放器集成到组件中肯定更加的稳定。
-
-## 关于 Swift 版本
-
-考虑时间成本，目前没有写 Swift 版本的计划。 

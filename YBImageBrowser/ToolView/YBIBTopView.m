@@ -25,7 +25,7 @@
         [self addSubview:self.pageLabel];
         [self addSubview:self.operationButton];
         
-        [self setOperationType:YBIBTopViewOperationTypeMore];
+        [self setOperationType:YBIBTopViewOperationTypeNone];
     }
     return self;
 }
